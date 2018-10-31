@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Yinni" duration-ms="4700" started-at="2018-10-30T17:55:33 CST" finished-at="2018-10-30T17:55:38 CST">
+    <groups>
+      <group name="loginTrue">
+        <method signature="Login.loginSuccess()[pri:0, instance:com.jianbing.cases.yinni.Login@3a03464]" name="loginSuccess" class="com.jianbing.cases.yinni.Login"/>
+      </group> <!-- loginTrue -->
+    </groups>
+    <test name="Yinni" duration-ms="4700" started-at="2018-10-30T17:55:33 CST" finished-at="2018-10-30T17:55:38 CST">
+      <class name="com.jianbing.cases.yinni.GetUserLoanInfo">
+        <test-method status="PASS" signature="getUserInfo()[pri:0, instance:com.jianbing.cases.yinni.GetUserLoanInfo@2d3fcdbd]" name="getUserInfo" duration-ms="3269" started-at="2018-10-30T17:55:34 CST" description="获取userId为65的用户信息" finished-at="2018-10-30T17:55:38 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserInfo -->
+      </class> <!-- com.jianbing.cases.yinni.GetUserLoanInfo -->
+      <class name="com.jianbing.cases.yinni.Login">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.jianbing.cases.yinni.Login@3a03464]" name="beforeTest" is-config="true" duration-ms="40" started-at="2018-10-30T17:55:33 CST" description="测试准备工作,获取HttpClient对象" finished-at="2018-10-30T17:55:33 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginSuccess()[pri:0, instance:com.jianbing.cases.yinni.Login@3a03464]" name="loginSuccess" duration-ms="1368" started-at="2018-10-30T17:55:33 CST" description="用户成功登陆接口" finished-at="2018-10-30T17:55:34 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+      </class> <!-- com.jianbing.cases.yinni.Login -->
+    </test> <!-- Yinni -->
+  </suite> <!-- Yinni -->
+</testng-results>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Yinni">
+    <test name="Yinni">
+        <classes>
+            <class name="com.jianbing.cases.yinni.Login">
+                <methods>
+                    <!--<include name="loginFalse"/>-->
+                    <include name="loginSuccess"/>
+                </methods>
+            </class>
+
+            <class name="com.jianbing.cases.yinni.GetUserLoanInfo">
+                <methods>
+                    <!--<include name="testGetCookie"/>-->
+                    <include name="getUserInfo"/>
+                </methods>
+            </class>
+
+            <!--<class name="com.couse.httpclient.cases.yinni.GetUserInfo">-->
+                <!--<methods>-->
+                    <!--<include name="testGetCookie"/>-->
+                    <!--<include name="getUserInfo"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+
+            <!--<class name="com.couse.httpclient.cases.yinni.UpdateInfo">-->
+                <!--<methods>-->
+                    <!--<include name="testGetCookie"/>-->
+                    <!--<include name="updateInfo"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+
+        </classes>
+    </test>
+
+    <!--<test name="Home">-->
+        <!--<classes>-->
+            <!--<class name="com.couse.httpclient.cases.yinni.Home"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="BasicInfo">-->
+        <!--<classes>-->
+            <!--<class name="com.couse.httpclient.cases.yinni.UpdateInfo"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="DaiKuan">-->
+        <!--<classes>-->
+            <!--<class name="com.couse.httpclient.cases.yinni.Daikuan"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="Login">-->
+        <!--<classes>-->
+            <!--<class name="Login"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="Home">-->
+        <!--<classes>-->
+            <!--<class name="Homekaka"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+
+
+
+
+
+    <!--<test name="Login">-->
+        <!--<classes>-->
+            <!--<class name="com.couse.httpclient.suite.Login"/>-->
+            <!--<class name="com.couse.httpclient.suite.Home"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <listeners>
+        <!--<listener  class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+        <listener  class-name="com.jianbing.Config.ExtentTestNGIReporterListener"/>
+
+    </listeners>
+</suite>

@@ -1,0 +1,14 @@
+com\jianbing\utils\ConfigFile.class
+com\jianbing\suite\Home.class
+com\jianbing\AppTest.class
+com\jianbing\model\SysUser.class
+com\jianbing\Config\ExtentTestNGIReporterListener.class
+com\jianbing\model\InterfaceName.class
+com\jianbing\model\GetUserLoanInfoCase.class
+com\jianbing\Config\TestConfig.class
+com\jianbing\cases\yinni\Login.class
+com\jianbing\cases\yinni\GetUserLoanInfo.class
+com\jianbing\utils\DataBaseUtil.class
+com\jianbing\Config\ExtentTestNGIReporterListener$1.class
+com\jianbing\Config\TestMethodsDemo.class
+com\jianbing\suite\Login.class

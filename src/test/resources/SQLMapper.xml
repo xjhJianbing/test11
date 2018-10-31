@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jianbing.model">
+    <!--获取登录接口case-->
+    <select id="sys_user" parameterType="Integer" resultType="com.jianbing.model.SysUser">
+        select * from sys_user
+        where id=#{id};
+    </select>
+
+
+    <!--获取用户贷款信息case-->
+    <select id="sys_user_loan" parameterType="Integer" resultType="com.jianbing.model.GetUserLoanInfoCase">
+        select * from sys_user_loan where id=#{id};
+    </select>
+
+
+    <!--&lt;!&ndash;更新/删除用户case&ndash;&gt;-->
+    <!--<select id="updateUserInfoCase" parameterType="Integer" resultType="com.course.model.UpdateUserInfoCase">-->
+        <!--select * from updateUserInfoCase where id = #{id};-->
+    <!--</select>-->
+</mapper>
